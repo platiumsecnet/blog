@@ -68,3 +68,4 @@ If your typical response to alerts involves digging through piles of PCAP files 
 # Refs
 1. https://cybersecurity.att.com/blogs/security-essentials/open-source-intrusion-detection-tools-a-quick-overview
 2. https://www.corelight.com/about-zeek/how-zeek-works
+3. https://www.corelight.com/cases/use-cases
