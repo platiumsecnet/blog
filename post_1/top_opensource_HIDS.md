@@ -24,7 +24,7 @@ Functionalities of a HIDS include:
 
 This article will cover five open-source host-based intrusion detection systems to help you protect your organization.
 
-# 1. About HIDS
+# About HIDS
 Before diving deeper into the HIDS tools, let’s explore what host-based intrusion detection systems are. 
 As discussed previously, an intrusion detection system is a hardware or software application that detects and 
 alerts administrators when a malicious activity has been detected. 
@@ -34,6 +34,23 @@ In other words, the HIDS is as effective as the pre-established rules you’ve a
 With a large number of stored logs, extracting meaningful information is critical to detect anomalies. 
 The extracted information should be accurate. 
 Therefore, ensuring the security of those logs is essential to defend against log manipulation.  
+
+# How does a HIDS work?
+The dedicated intrusion detection system monitors traffic for malicious activity or policy violations.
+
+It detects known attacks by the specific actions they perform (signatures).
+
+The HIDS analyzes traffic (much like a network traffic analyzer) and behavior that matches these signatures in real-time, in the host.
+
+It can also detect unusual usage patterns with anomaly detection methods.
+
+When the HIDS finds a match, it raises an alarm and notifies the administrator.
+
+The HIDS is installed on the host, while the NIDS is placed inline.
+
+The HIDS protects the system at the source so that it can be deeper and more intense in its security. The HIDS can also monitor system files, executables, and log files in the host computer and look for attack signatures.
+
+![HIDS_work](./imgs/hids_work.)
 
 # No 1: OSSEC
 OSSEC is short for Open Source Security Event Correlator. 
