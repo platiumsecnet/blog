@@ -12,16 +12,6 @@ There’s no question about it, intrusion detection systems are important to ens
 These safeguards are used to defend restricted access to an organization’s network. 
 When it comes to intrusion detection systems, there are two different types; host-based (HIDS) and network-based systems (NIDS). Network-based IDS analyze network traffic for any intrusion and produce alerts while HIDS trace the hosts’ behaviors for any suspicious activity by examining events on your network.
 
-Functionalities of a HIDS include:
-- Anomaly-based detection
-- Signature attack detection
-- Zero-day attacks
-- Traffic monitoring at host
-- File integrity monitoring
-- Log analysis
-- Compliance and auditing
-- Notification and alerting system
-
 This article will cover five open-source host-based intrusion detection systems to help you protect your organization.
 
 # About HIDS
