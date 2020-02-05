@@ -45,6 +45,7 @@ However, if you aggregate multiple devices and different services (web servers, 
 OSSEC is a good choice as a powerful log analysis engine.
 
 ![OSSEC](./imgs/OSSEC.png)
+![OSSEC-DASHBOARD](./imgs/ossec-dashboard.png)
 
 # No 2: Tripwire
 As the name indicates this is a free and open-source host-based detection system developed by Tripwire. 
