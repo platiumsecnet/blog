@@ -10,6 +10,8 @@ If you're not an analyst then this tool will have a challenging learning curve. 
 
 There’s no native GUI but there are third-party open source tools available for a web front end to query and analyze alerts coming from Bro-IDS. Consider ELK stack.
 
+When a security alert fires or when you have a problem to investigate, Zeek / Bro helps you find the problem—faster. It complements signature-based tools to help you rapidly trace complex events across multiple flows and protocols with ease, to quickly pinpoint and resolve security issues.
+
 # 2. Features
 1. Can detect patterns of activity other IDS systems can not
 2. Very extensible architecture
@@ -25,6 +27,39 @@ There’s no native GUI but there are third-party open source tools available fo
 13. IDS-style pattern matching
 14. File extraction
 15. Analysts can use Bro for automation (file extraction, malware analysis, blacklisting, track usage patterns, research work, etc.)
+
+# Highly-structured real time network data.
+If your typical response to alerts involves digging through piles of PCAP files or trying to piece together data through thin NetFlow records, there’s a better way. It’s Zeek. Zeek / Bro generates a wide range of rich network information, including logs for:
+1. conn
+2. capture loss
+3. dce rpc
+4. dhcp
+5. dnp3
+6. dns
+7. dpd
+8. files
+9. ftp
+10. http
+11. intel
+12. irc
+13. kerberos
+14. modbus
+15. mysql
+16. notice
+17. ntlm
+18. radius
+19. rdp
+20. sftp
+21. sip
+22. socks
+23. smb
+24. smtp
+25. snmp
+26. ssh
+27. ssl
+28. tunnel
+29. weird
+30. x509
 
 # 3. Disadvantages
 1. Complicated to set up
