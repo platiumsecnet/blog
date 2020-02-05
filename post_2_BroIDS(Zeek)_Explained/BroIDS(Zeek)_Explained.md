@@ -70,3 +70,4 @@ If your typical response to alerts involves digging through piles of PCAP files 
 2. https://www.corelight.com/about-zeek/how-zeek-works
 3. https://www.corelight.com/cases/use-cases
 4. https://bricata.com/blog/zeek-network-security/
+5. https://bricata.com/blog/snort-suricata-bro-ids/
