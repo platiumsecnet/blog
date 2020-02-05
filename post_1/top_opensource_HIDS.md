@@ -126,6 +126,13 @@ This screenshot illustrates real-time events detection using Security Onion (Sgu
 
 ![Security-Onion](./imgs/Security-Onion.png)
 
+# No 6: Sagan
+Sagan is a free HIDS that installs on Unix, Linux, and Mac OS. It is capable of collecting Windows event log messages, even though it doesn’t run on Windows. You can distribute the processing of Sagan to keep the overhead on your log server’s CPU light. The system uses both anomaly and signature-based detection methods.
+
+You can set actions to occur automatically when an intrusion is detected. The tool has a few unique features that some of the more prominent HIDS lack. These include an IP geolocation facility that will enable you to raise alerts when activities of different IP addresses are traced to the same geographical source. The tool also allows you to set time-related rules to trigger alerts. The system was written to be compatible with Snort, which is a network detection system, giving Saga NIDS capabilities when combined with a network data collector. Sagan includes a script execution facility that makes this an IPS.
+
+![Sagan](./imgs/Sagan.png)
+
 # Summary
 Deploying a host-based intrusion detection system is vital for modern organizations. 
 There are many HIDS on the market with different capabilities. 
@@ -134,3 +141,5 @@ The selection was based on a number of criteria including the popularity of the 
 
 # Refs
 1. https://logz.io/blog/open-source-hids/
+2. https://www.comparitech.com/net-admin/hids-tools-software/
+
