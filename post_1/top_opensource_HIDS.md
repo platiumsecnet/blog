@@ -131,7 +131,7 @@ Sagan is a free HIDS that installs on Unix, Linux, and Mac OS. It is capable of 
 
 You can set actions to occur automatically when an intrusion is detected. The tool has a few unique features that some of the more prominent HIDS lack. These include an IP geolocation facility that will enable you to raise alerts when activities of different IP addresses are traced to the same geographical source. The tool also allows you to set time-related rules to trigger alerts. The system was written to be compatible with Snort, which is a network detection system, giving Saga NIDS capabilities when combined with a network data collector. Sagan includes a script execution facility that makes this an IPS.
 
-![Sagan](./imgs/Sagan.png)
+![Sagan](./imgs/Sagan.jpg)
 
 # Summary
 Deploying a host-based intrusion detection system is vital for modern organizations. 
