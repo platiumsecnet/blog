@@ -35,6 +35,16 @@ With a large number of stored logs, extracting meaningful information is critica
 The extracted information should be accurate. 
 Therefore, ensuring the security of those logs is essential to defend against log manipulation.  
 
+Functionalities of a HIDS include:
+- Anomaly-based detection
+- Signature attack detection
+- Zero-day attacks
+- Traffic monitoring at host
+- File integrity monitoring
+- Log analysis
+- Compliance and auditing
+- Notification and alerting system
+
 # How does a HIDS work?
 The dedicated intrusion detection system monitors traffic for malicious activity or policy violations.
 
