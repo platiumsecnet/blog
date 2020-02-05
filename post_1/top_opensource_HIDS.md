@@ -68,6 +68,7 @@ OSSEC provides the following functionalities:
 
 # No 2: Tripwire
 https://github.com/Tripwire/tripwire-open-source
+
 As the name indicates this is a free and open-source host-based detection system developed by Tripwire. 
 The company offers a commercial solution too, but we will focus on the open-source HIDS. 
 The open-source Tripwire package runs exclusively on almost all Linux distributions. 
@@ -125,6 +126,7 @@ Key Features:
 
 # No 4: Samhain
 https://la-samhna.de/samhain/s_download.html
+
 Samhain is an open-source HIDS with central management that helps you check file integrity, monitor log files, and 
 detect hidden processes. 
 This multi-platform solution runs on POSIX systems (Unix, Linux, Cygwin/Windows).
