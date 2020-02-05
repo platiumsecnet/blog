@@ -8,10 +8,19 @@ One of the biggest victims was Marriot.
 A single unauthorized access led to the theft of 500M personal identifiable pieces of information. 
 According to the  “2018 Data Breach Investigation Report” more than 73% of breaches were committed by outsiders. 
 
-There’s no question about it, intrusion detection systems are important to ensure the security of modern organizations’ assets 
-and all network traffic. 
+There’s no question about it, intrusion detection systems are important to ensure the security of modern organizations’ assets and all network traffic. 
 These safeguards are used to defend restricted access to an organization’s network. 
 When it comes to intrusion detection systems, there are two different types; host-based (HIDS) and network-based systems (NIDS). Network-based IDS analyze network traffic for any intrusion and produce alerts while HIDS trace the hosts’ behaviors for any suspicious activity by examining events on your network.
+
+Functionalities of a HIDS include:
+- Anomaly-based detection
+- Signature attack detection
+- Zero-day attacks
+- Traffic monitoring at host
+- File integrity monitoring
+- Log analysis
+- Compliance and auditing
+- Notification and alerting system
 
 This article will cover five open-source host-based intrusion detection systems to help you protect your organization.
 
@@ -44,6 +53,16 @@ unless you export the rules and import them after the migration.
 However, if you aggregate multiple devices and different services (web servers, databases, firewalls, etc.) 
 OSSEC is a good choice as a powerful log analysis engine.
 
+OSSEC provides the following functionalities:
+- Log-based intrusion detection.
+- File integrity monitoring.
+- Compliance auditing.
+- System inventorying.
+- Windows registry monitoring.
+- Rootkit and Malware detection.
+- Centralized policy enforcement.
+- Real-time alerting and active response.
+
 ![OSSEC](./imgs/OSSEC.png)
 ![OSSEC-DASHBOARD](./imgs/ossec-dashboard.png)
 
@@ -68,6 +87,11 @@ The following screenshot illustrates the rules and the security level of each on
 
 ![Tripwire](./imgs/Tripwire.png)
 
+Tripwire HIDS features:
+- File integrity monitoring.
+- Create system reports.
+- Alerting through Email.
+
 # No 3: Wazuh
 Wazuh is another open-source monitoring solution for integrity monitoring, incident response, and compliance. 
 The latest version, as of the writing of this article, is 3.8.2. 
@@ -87,7 +111,19 @@ The following screenshot represents the overview dashboard of Wazuh:
 
 ![wazuh](./imgs/wazuh.png)
 
+Key Features:
+- Log data analysis.
+- File integrity monitoring.
+- CVE databases to detect vulnerabilities.
+- Windows registry monitoring.
+- Malware and rootkit detection.
+- Configuration assessment.
+- Alerting and active response.
+- PCI DSS compliance.
+- Cloud and container security.
+
 # No 4: Samhain
+https://la-samhna.de/samhain/s_download.html
 Samhain is an open-source HIDS with central management that helps you check file integrity, monitor log files, and 
 detect hidden processes. 
 This multi-platform solution runs on POSIX systems (Unix, Linux, Cygwin/Windows).
@@ -101,6 +137,17 @@ It differs from the other previously discussed open-source HIDS by its stealth c
 from intruders—thanks to the paranoid code put together by its developers. 
 While the Samhain community is good, it is more difficult to install than the other HIDS. 
 Windows’ clients require Cygwin to be installed plus its reports are difficult to understand at first.
+
+Samhain provides:
+- File integrity checking.
+- Logfile monitoring and analysis.
+- Port monitoring.
+- Rootkit detection.
+- Rogue SUID executables detection
+- Hidden processes detection.
+- Compliance with PCI DSS
+
+![SAMHAIN](./imgs/samhain.png)
 
 # No 5: Security Onion
 Security Onion is a free and open-source intrusion detection system built on Linux designed and maintained by Doug Burks. 
@@ -134,6 +181,33 @@ You can set actions to occur automatically when an intrusion is detected. The to
 
 ![Sagan](./imgs/Sagan.jpg)
 
+AIDE offers full flexibility when checking the integrity of files.
+
+It allows you to write customized expressions to include or exclude files and directories from the monitoring process.
+
+The software only has robust file integrity checking; it does not perform other HIDS functionalities like log-analysis or rootkit/malware detection.
+
+# No 7: 6. Advanced Intrusion Detection Environment (AIDE)
+Advanced Intrusion Detection Environment (AIDE) is a free and open-source HIDS.
+
+AIDE is designed only for checking the integrity of files.
+
+With this tool, you can craft rules that create a database of files that are protected from intrusion.
+
+When you first run AIDE, you generate this baseline database, which is checked frequently against the system.
+
+The software will correlate and find differences between the database baseline and the filesystem.
+
+You can check the following file properties:
+- File type
+- Permissions
+- Inode
+- Modification time
+- File contents
+- Number of links
+
+![AIDE](./imgs/aide.png)
+
 # Summary
 Deploying a host-based intrusion detection system is vital for modern organizations. 
 There are many HIDS on the market with different capabilities. 
@@ -143,4 +217,6 @@ The selection was based on a number of criteria including the popularity of the 
 # Refs
 1. https://logz.io/blog/open-source-hids/
 2. https://www.comparitech.com/net-admin/hids-tools-software/
+3. https://www.dnsstuff.com/host-based-intrusion-detection-systems
+4. https://www.pcwdld.com/host-based-intrusion-detection-systems-hids-tools-and-software
 
