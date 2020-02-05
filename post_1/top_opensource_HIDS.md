@@ -50,7 +50,7 @@ The HIDS is installed on the host, while the NIDS is placed inline.
 
 The HIDS protects the system at the source so that it can be deeper and more intense in its security. The HIDS can also monitor system files, executables, and log files in the host computer and look for attack signatures.
 
-![HIDS_work](./imgs/hids_work.)
+![HIDS_WORK](./imgs/hids_work.png)
 
 # No 1: OSSEC
 OSSEC is short for Open Source Security Event Correlator. 
