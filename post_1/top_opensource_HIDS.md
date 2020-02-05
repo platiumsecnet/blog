@@ -67,6 +67,7 @@ OSSEC provides the following functionalities:
 ![OSSEC-DASHBOARD](./imgs/ossec-dashboard.png)
 
 # No 2: Tripwire
+https://github.com/Tripwire/tripwire-open-source
 As the name indicates this is a free and open-source host-based detection system developed by Tripwire. 
 The company offers a commercial solution too, but we will focus on the open-source HIDS. 
 The open-source Tripwire package runs exclusively on almost all Linux distributions. 
@@ -187,7 +188,7 @@ It allows you to write customized expressions to include or exclude files and di
 
 The software only has robust file integrity checking; it does not perform other HIDS functionalities like log-analysis or rootkit/malware detection.
 
-# No 7: 6. Advanced Intrusion Detection Environment (AIDE)
+# No 7: Advanced Intrusion Detection Environment (AIDE)
 Advanced Intrusion Detection Environment (AIDE) is a free and open-source HIDS.
 
 AIDE is designed only for checking the integrity of files.
